@@ -48,7 +48,7 @@ state county      city        Neighborhood    regionid   total_potins      coord
 IL	Cook	      Chicago	Chatham	    273222	    218	         -87.597208915594;41.751072022231,-87.597240915594;41.75086402223
 ```
 
-3. Exporting the GeoJSON files
+3. Exporting the GeoJSON Features Collection files
 ===============================
 
 
@@ -72,10 +72,41 @@ Finally, the GeoJson file have the format as following:
 
 
 ```
-{ "type": "MultiPolygon",
-    "coordinates": [
-      [[[x-coordinate, y-coordinate], [x-coordinate, y-coordinate], [x-coordinate, y-coordinate]]]
-      ]
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "type":"Feature",
+         "properties":{
+            "STATE":"AK",
+            "COUNTY":"Anchorage",
+            "CITY":"Anchorage",
+            "NAME":"Birchwood",
+            "REGIONID":"102065"
+         },
+         "geometry":{
+            "type":"Polygon",
+            "coordinates":[
+               [
+                  [
+                     [
+                        "x-coordinate",
+                        "y-coordinate"
+                     ],
+                     [
+                        "x-coordinate",
+                        "y-coordinate"
+                     ],
+                     [
+                        "x-coordinate",
+                        "y-coordinate"
+                     ]
+                  ]
+               ]
+            ]
+         }
+      }
+   ]
 }
 ```
 

@@ -1,1 +1,1 @@
-{"type":"MultiPolygon","coordinates":[[[[-121.47799610971,38.593846128754],[-121.48562062915,38.590220135795],[-121.48249134756,38.597298272735],[-121.47799610971,38.593846128754]]]]}
+{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"STATE":"CA","COUNTY":"Sacramento","CITY":"Sacramento","NAME":"Dos Rios Triangle","REGIONID":"268113"},"geometry":{"type":"Polygon","coordinates":[[[-121.47799610971,38.593846128754],[-121.48562062915,38.590220135795],[-121.48249134756,38.597298272735],[-121.47799610971,38.593846128754]]]}}]}
